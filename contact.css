@@ -1,0 +1,35 @@
+h3{
+    font-size: 145%;
+}
+.n1{
+    color: hsl(0, 100%, 50%);
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.image-container {
+    text-align: center;
+}
+.container{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+.image-container img {
+    max-width: 60%;
+    height: auto;
+    border-radius:10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+.Profile{
+    color: rgb(255, 0, 0);
+}

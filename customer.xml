@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="customer.xsl"?>
+
+<!DOCTYPE customer [
+<!ELEMENT customer (customer_data)>
+<!ELEMENT customer_data (customer_code, customer_firstname, customer_lastname, customer_age, customer_phon)>
+<!ELEMENT customer_code (#PCDATA)>
+<!ELEMENT customer_firstname (#PCDATA)>
+<!ELEMENT customer_lastname (#PCDATA)>
+<!ELEMENT customer_age (#PCDATA)>
+<!ELEMENT customer_phon (#PCDATA)>
+
+]>
+
+<customer>
+    <customer_data>
+        <customer_code>001</customer_code>
+        <customer_firstname>สมหมาย</customer_firstname>
+        <customer_lastname>สรรพสุ่น</customer_lastname>
+        <customer_age>30</customer_age>
+        <customer_phon>087-861-190</customer_phon>
+    </customer_data>
+    <customer_data>
+        <customer_code>002</customer_code>
+        <customer_firstname>สมปอง</customer_firstname>
+        <customer_lastname>หมายปอง</customer_lastname>
+        <customer_age>24</customer_age>
+        <customer_phon>033-012-966</customer_phon>
+    </customer_data>
+    <customer_data>
+        <customer_code>003</customer_code>
+        <customer_firstname>สมควร</customer_firstname>
+        <customer_lastname>ปองหมาย</customer_lastname>
+        <customer_age>18</customer_age>
+        <customer_phon>031-564-916</customer_phon>
+    </customer_data>
+    <customer_data>
+        <customer_code>004</customer_code>
+        <customer_firstname>สมชาย</customer_firstname>
+        <customer_lastname>จ๊กหม๊ก</customer_lastname>
+        <customer_age>19</customer_age>
+        <customer_phon>098-315-619</customer_phon>
+    </customer_data>
+    <customer_data>
+        <customer_code>005</customer_code>
+        <customer_firstname>สมหญิง</customer_firstname>
+        <customer_lastname>ส๊กหม๊ก</customer_lastname>
+        <customer_age>22</customer_age>
+        <customer_phon>084-619-614</customer_phon>
+    </customer_data>
+</customer>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="employee.xsl"?>
+<!DOCTYPE employee [
+<!ELEMENT employee (employee_data)>
+<!ELEMENT employee_data (employee_code, employee_firstname, employee_lastname, employee_age, employee_phon)>
+<!ELEMENT employee_code (#PCDATA)>
+<!ELEMENT employee_firstname (#PCDATA)>
+<!ELEMENT employee_lastname (#PCDATA)>
+<!ELEMENT employee_age (#PCDATA)>
+<!ELEMENT employee_phon (#PCDATA)>
+]>
+<employee>
+    <employee_data>
+        <employee_code>001</employee_code>
+        <employee_firstname>นน</employee_firstname>
+        <employee_lastname>สมควร</employee_lastname>
+        <employee_age>25</employee_age>
+        <employee_phon>033-235-655</employee_phon>
+    </employee_data>
+    <employee_data>
+        <employee_code>002</employee_code>
+        <employee_firstname>โฟน</employee_firstname>
+        <employee_lastname>เพสสม</employee_lastname>
+        <employee_age>30</employee_age>
+        <employee_phon>021-354-998</employee_phon>
+    </employee_data>
+    <employee_data>
+        <employee_code>003</employee_code>
+        <employee_firstname>เจ</employee_firstname>
+        <employee_lastname>ควรหัว</employee_lastname>
+        <employee_age>20</employee_age>
+        <employee_phon>021-354-998</employee_phon>
+    </employee_data>
+    <employee_data>
+        <employee_code>004</employee_code>
+        <employee_firstname>สมชาย</employee_firstname>
+        <employee_lastname>จ๊กหม๊ก</employee_lastname>
+        <employee_age>19</employee_age>
+        <employee_phon>098-315-619</employee_phon>
+    </employee_data>
+    <employee_data>
+        <employee_code>005</employee_code>
+        <employee_firstname>ภูมิ</employee_firstname>
+        <employee_lastname>โตมัน</employee_lastname>
+        <employee_age>20</employee_age>
+        <employee_phon>021-354-998</employee_phon>
+    </employee_data>
+</employee>

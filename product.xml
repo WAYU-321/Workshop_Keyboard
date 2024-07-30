@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="product.xsl"?>
+<!DOCTYPE product [
+<!ELEMENT product (product_data)>
+<!ELEMENT product_data (product_code, product_name, product_details, product_price, product_quantity)>
+<!ELEMENT product_code (#PCDATA)>
+<!ELEMENT product_name (#PCDATA)>
+<!ELEMENT product_details (#PCDATA)>
+<!ELEMENT product_price (#PCDATA)>
+<!ELEMENT product_quantity (#PCDATA)>
+
+]>
+<product>
+    <product_data>
+        <product_code>001</product_code>
+        <product_name>Nubwo Krueger X68</product_name>
+        <product_details>Mechanical Gamming Black และ Blue Switchไฟ RGB Size-65%</product_details>
+        <product_price>550-บาท</product_price>
+        <product_quantity>35</product_quantity>
+    </product_data>
+    <product_data>
+        <product_code>002</product_code>
+        <product_name>Nubwo X62 RHIANNON</product_name>
+        <product_details>Mechanical GammingBlack c]t Blue Switchไฟ RGB Full-Size</product_details>
+        <product_price>590-บาท</product_price>
+        <product_quantity>22</product_quantity>
+    </product_data>
+    <product_data>
+        <product_code>003</product_code>
+        <product_name>EGA TYPE CMK1</product_name>
+        <product_details>Mechanical Gamming Layout A+ Blue Switchไฟ RGB Full-Size</product_details>
+        <product_price>880- บาท</product_price>
+        <product_quantity>25</product_quantity>
+    </product_data>
+    <product_data>
+        <product_code>004</product_code>
+        <product_name>Logitech G213 Prodigy</product_name>
+        <product_details>Membrane Gamming  ไฟ RGB Full-Size กันน้ำกันฝุ่นและมีความทนทานสูง</product_details>
+        <product_price>1,500- บาท</product_price>
+        <product_quantity>25</product_quantity>
+    </product_data>
+    <product_data>
+        <product_code>005</product_code>
+        <product_name>HyperX Alloy Rise</product_name>
+        <product_details>Mechanical Gammingสวิตช์ Linearไฟ RGB Full-Size ตอบสนองได้อย่างรวดเร็ว</product_details>
+        <product_price>7,500- บาท</product_price>
+        <product_quantity>20</product_quantity>
+    </product_data>
+</product>

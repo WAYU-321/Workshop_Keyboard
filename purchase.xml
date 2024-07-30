@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="purchase.xsl"?>
+
+<!DOCTYPE purchase [
+<!ELEMENT purchase (purchase_data)>
+<!ELEMENT purchase_data (purchase_code, purchase_name, purchase_price, purchase_quantity, purchase_MMY)>
+<!ELEMENT purchase_code (#PCDATA)>
+<!ELEMENT purchase_name (#PCDATA)>
+<!ELEMENT purchase_price (#PCDATA)>
+<!ELEMENT purchase_quantity (#PCDATA)>
+<!ELEMENT purchase_MMY (#PCDATA)>
+
+]>
+<purchase>
+    <purchase_data>
+        <purchase_code>001</purchase_code>
+        <purchase_name>Nubwo X62 RHIANNON</purchase_name>
+        <purchase_price>2,360- บาท</purchase_price>
+        <purchase_quantity>4</purchase_quantity>
+        <purchase_MMY>16/7/2567</purchase_MMY>
+    </purchase_data>
+    <purchase_data>
+        <purchase_code>002</purchase_code>
+        <purchase_name>HyperX Alloy Rise</purchase_name>
+        <purchase_price>22,500- บาท</purchase_price>
+        <purchase_quantity>3</purchase_quantity>
+        <purchase_MMY>20/8/2567</purchase_MMY>
+    </purchase_data>
+    <purchase_data>
+        <purchase_code>003</purchase_code>
+        <purchase_name>EGA TYPE CMK1</purchase_name>
+        <purchase_price>4,400- บาท</purchase_price>
+        <purchase_quantity>5</purchase_quantity>
+        <purchase_MMY>26/9/2567</purchase_MMY>
+    </purchase_data>
+    <purchase_data>
+        <purchase_code>004</purchase_code>
+        <purchase_name>Nubwo Krueger X68</purchase_name>
+        <purchase_price>3,300- บาท</purchase_price>
+        <purchase_quantity>6</purchase_quantity>
+        <purchase_MMY>30/12/2567</purchase_MMY>
+    </purchase_data>
+    <purchase_data>
+        <purchase_code>005</purchase_code>
+        <purchase_name>Logitech G213 Prodigy</purchase_name>
+        <purchase_price>4,500- บาท</purchase_price>
+        <purchase_quantity>3</purchase_quantity>
+        <purchase_MMY>14/12/2600</purchase_MMY>
+    </purchase_data>
+</purchase>
